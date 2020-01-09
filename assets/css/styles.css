@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +8,97 @@
 
 html {
   font: normal 16px sans-serif;
+  color: #555;
+}
+
+nav {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a.btn {
+  background-color: #3f51b5;
+  border-radius: 4px;
+  font-weight: bold;
+  opacity: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 80px;
+}
+/* Header Styles */
+
+header {
+  align-items: center;
+  animation: 1s fadein 0.5s forwards;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0;
+  padding: 35px 100px 0;
+}
+
+@keyframes fadein {
+  100% {
+    opacity: 1;
+  }
+}
+
+header h2 {
+  font-family: "Quicksand", sans-serif;
+}
+
+header nav {
+  display: flex;
+  margin-right: -15px;
+}
+
+header nav li {
+  margin: 0 15px;
+}
+
+/* Hero Styles */
+
+.hero {
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+.hero .background-image {
+  background-color: #80a3db;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.hero h1 {
+  font: bold 60px "Open Sans", sans-serif;
+  margin-bottom: 15px;
+}
+
+.hero h3 {
+  font: normal 28px "Open Sans", sans-serif;
+  margin-bottom: 40px;
+}
+
+.hero a.btn {
+  padding: 20px 46px;
 }

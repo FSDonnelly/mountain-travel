@@ -11,12 +11,14 @@ html {
   color: #555;
 }
 
+ul,
 nav {
   list-style: none;
 }
 
 a {
   color: #fff;
+  cursor: pointer;
   text-decoration: none;
   opacity: 0.75;
 }
@@ -39,6 +41,36 @@ section {
   display: flex;
   flex-direction: column;
   padding: 100px 80px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+hr {
+  background-color: #3f51b5;
+  border: 0;
+  height: 3px;
+  margin-bottom: 50px;
+  width: 250px;
+}
+
+section h3.title {
+  font: bold 32px "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+section p {
+  line-height: 2;
+  margin-bottom: 30px;
+  min-width: 775px;
+  padding: 0 20px;
+  text-align: center;
 }
 /* Header Styles */
 

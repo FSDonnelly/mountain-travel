@@ -189,5 +189,14 @@ header nav li {
 
 .packages .grid li h4 {
   font-size: 30px;
-  margin: 25 px 0;
+  margin: 25px 0;
+}
+
+/* Testimonial Section */
+
+.testimonials .quote {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 40px 0 25px;
 }
